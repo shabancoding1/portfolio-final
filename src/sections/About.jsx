@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import Card from "../components/Card";
-import { Globe } from "../components/globe";
+import { Globe } from "../components/Globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/FrameWorks";
 
@@ -36,27 +36,62 @@ const About = () => {
             </p>
             <Card
               style={{ rotate: "75deg", top: "30%", left: "20%" }}
-              text="GRASP"
+              text="HTML"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="SOLID"
+              text="CSS"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-              text="Design Patterns"
+              text="Bootstrap"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-              text="Design Principles"
+              text="JS"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="SRP"
+              text="React"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "20deg", top: "10%", left: "38%" }}
+              text="MongoDB"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "20deg", top: "10%", left: "38%" }}
+              text="Express js"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "20deg", top: "10%", left: "38%" }}
+              text="Node js"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "20deg", top: "10%", left: "38%" }}
+              text="Php"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "20deg", top: "10%", left: "38%" }}
+              text="SQL"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "20deg", top: "10%", left: "38%" }}
+              text="JQuery"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "20deg", top: "10%", left: "38%" }}
+              text="Heidi Sql"
               containerRef={grid2Container}
             />
             <Card
